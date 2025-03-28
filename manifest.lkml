@@ -16,10 +16,19 @@ application: extension_demo {
     use_downloads: yes
     use_iframes: yes
     use_clipboard: yes
-    core_api_methods: ["me", "run_inline_query"]
+    # UPDATED core_api_methods:
+    core_api_methods: [
+      "me",
+      "run_inline_query",
+      "look",
+      "user_attribute_user_values",
+      "set_user_attribute_user_value",
+      "search_looks"
+    ]
     external_api_urls: []
     oauth2_urls: []
-    scoped_user_attributes: []
+    # UPDATED scoped_user_attributes:
+    scoped_user_attributes: ["extension_golf_favorites"] # ADDED - Grant access to your new user attribute
     global_user_attributes: []
   }
 }
