@@ -22,8 +22,7 @@ application: extension_demo {
       "run_inline_query",
       "look",
       "user_attribute_user_values",
-      "set_user_attribute_user_value",
-      "search_looks"
+      "set_user_attribute_user_value"
     ]
     external_api_urls: []
     oauth2_urls: []
