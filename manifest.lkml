@@ -1,7 +1,7 @@
 project_name: "sandbox_testing"
 application: extension_demo {
   label: "Extension Demo"
-  url: "https://localhost:8080"
+  url: "https://localhost:8080/bundle.js"
   mount_points: {
     standalone: no
     dashboard_vis: yes
