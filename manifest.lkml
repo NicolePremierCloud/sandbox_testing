@@ -3,7 +3,7 @@ application: extension_demo {
   label: "Extension Demo"
   url: "https://localhost:8080/bundle.js"
   mount_points: {
-    standalone: no
+    standalone: yes
     dashboard_vis: yes
     dashboard_tile: yes
   }
