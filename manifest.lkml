@@ -1,7 +1,7 @@
 project_name: "sandbox_testing"
 application: extension_demo {
   label: "Extension Demo"
-  url: "http://localhost:8080/looker-extensions/app.js"
+  url: "https://localhost:8080"
   mount_points: {
     standalone: no
     dashboard_vis: yes
