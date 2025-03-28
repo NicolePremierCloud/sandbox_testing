@@ -16,7 +16,7 @@ application: extension_demo {
     use_downloads: yes
     use_iframes: yes
     use_clipboard: yes
-    core_api_methods: ["me"]
+    core_api_methods: ["me", "run_inline_query"]
     external_api_urls: []
     oauth2_urls: []
     scoped_user_attributes: []
