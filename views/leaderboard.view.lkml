@@ -30,12 +30,12 @@ view: leaderboard {
     sql: ${TABLE}.created_at ;;
   }
 
-  dimension: distance {
+  measure: distance {
     type: number
     sql: ${TABLE}.distance ;;
   }
 
-  dimension: game_id {
+  measure: game_id {
     type: number
     sql: ${TABLE}.gameId ;;
   }

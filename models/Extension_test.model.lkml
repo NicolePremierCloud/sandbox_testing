@@ -11,3 +11,5 @@ persist_with: Extension_test_default_datagroup
 explore: leaderboard {}
 
 explore: games {}
+
+explore: music_tracks {}
