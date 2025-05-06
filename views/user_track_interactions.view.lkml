@@ -4,10 +4,24 @@ view: user_track_interactions {
   dimension: hidden {
     type: yesno
     sql: ${TABLE}.hidden ;;
+    html:
+    {% if value == 'No' %}
+    👁️
+    {% elsif value == 'Yes' %}
+
+          {% endif %}
+          ;;
   }
   dimension: liked {
     type: yesno
     sql: ${TABLE}.liked ;;
+    html:
+    {% if value == 'Yes' %}
+    ❤️
+    {% else %}
+    🤍
+    {% endif %}
+    ;;
   }
   dimension: track_id {
     type: string

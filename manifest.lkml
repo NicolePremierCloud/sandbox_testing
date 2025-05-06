@@ -7,7 +7,14 @@ application:  cmg_extension {
   entitlements: {
     use_embeds: yes
     use_iframes: yes
-    core_api_methods: ["run_inline_query","me"] # Allows running queries directly
+    local_storage: no
+    new_window: no
+    new_window_external_urls: []
+    use_form_submit: no
+    use_clipboard: no
+    external_api_urls: []
+    oauth2_urls: []
+    core_api_methods: ["run_inline_query","me", "user_attribute_user_values"] # Allows running queries directly
     # Add others as needed later, e.g., local_storage, specific API methods
     navigation: yes
   }
