@@ -16,12 +16,14 @@ view: user_track_interactions {
     type: yesno
     sql: ${TABLE}.liked ;;
     html:
-    {% if value == 'Yes' %}
-    ❤️
+     {% if value == 'Yes' %}
+     ❤️
     {% else %}
     🤍
-    {% endif %}
+  {% endif %}
+
     ;;
+
   }
   dimension: track_id {
     type: string
