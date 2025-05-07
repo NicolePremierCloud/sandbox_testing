@@ -12,8 +12,8 @@ application:  cmg_extension {
     new_window_external_urls: []
     use_form_submit: no
     use_clipboard: no
-    external_api_urls: []
     oauth2_urls: []
+    external_api_urls: ["https://cmg-fetch-tracks-1067806797832.us-central1.run.app"]
     core_api_methods: ["run_inline_query","me", "user_attribute_user_values"] # Allows running queries directly
     # Add others as needed later, e.g., local_storage, specific API methods
     navigation: yes
