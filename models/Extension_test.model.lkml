@@ -23,4 +23,10 @@ explore: user_track_interactions {
     type: left_outer
     fields: [text, timestamp_time, timestamp_date]  # Only show relevant fields
   }
+
+  join: music_tracks {
+    type: left_outer
+    sql_on: ${music_tracks.id} = ${user_track_interactions.track_id} ;;
+    relationship: many_to_one  # Assuming each track can have multiple interactions
+  }
 }
